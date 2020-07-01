@@ -16,8 +16,8 @@ phases:
     - npm run test
     - mkdir -p target/stg
     - mkdir target/prod
-    - serverless package --package target/stg --stage stg -v -r eu-central-1
-    - serverless package --package target/prod --stage prod -v -r eu-central-1
+    - serverless package --package target/stg --stage stg -v -r ap-southeast-2
+    - serverless package --package target/prod --stage prod -v -r ap-southeast-2
 
 artifacts:
   files:
